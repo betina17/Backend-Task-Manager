@@ -1,0 +1,17 @@
+com\example\experiment\controller\UsersController.class
+com\example\experiment\model\User.class
+com\example\experiment\validation\TaskValidation.class
+com\example\experiment\repository\ITasksRepository.class
+com\example\experiment\exceptions\RepositoryException.class
+com\example\experiment\service\ITasksService.class
+com\example\experiment\repository\IUsersRepository.class
+com\example\experiment\configurations\WebConfig.class
+com\example\experiment\ExperimentApplication.class
+com\example\experiment\model\Task.class
+com\example\experiment\service\UsersService.class
+com\example\experiment\service\TasksService.class
+com\example\experiment\exceptions\UserValidatorException.class
+com\example\experiment\controller\TasksController.class
+com\example\experiment\exceptions\TaskValidatorException.class
+com\example\experiment\model\TaskDTO.class
+com\example\experiment\validation\UserValidation.class
