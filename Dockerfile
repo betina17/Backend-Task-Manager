@@ -1,6 +1,11 @@
 # Use an official OpenJDK runtime as a parent image
 FROM openjdk:17-jdk-slim
 
+# Set environment variables
+ENV SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/experiment_mpp
+ENV SPRING_DATASOURCE_USERNAME=root
+ENV SPRING_DATASOURCE_PASSWORD=admin
+
 WORKDIR /app
 
 # Copy the application JAR file into the container
