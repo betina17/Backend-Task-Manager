@@ -2,9 +2,9 @@
 FROM openjdk:17-jdk-slim
 
 # Set environment variables
-ENV SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/experiment_mpp
-ENV SPRING_DATASOURCE_USERNAME=root
-ENV SPRING_DATASOURCE_PASSWORD=admin
+ENV SPRING_DATASOURCE_URL=jdbc:mysql://sql7.freesqldatabase.com:3306/sql7713489
+ENV SPRING_DATASOURCE_USERNAME=sql7713489
+ENV SPRING_DATASOURCE_PASSWORD=2JQHxTsHfD
 
 WORKDIR /app
 
